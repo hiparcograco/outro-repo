@@ -1,0 +1,10 @@
+git -T git@github.com
+mkdir repo
+git init
+git add .
+git commit -m "primeiro commit"
+git branch -M main
+git status
+git remote -v
+git push -u origin main
+
